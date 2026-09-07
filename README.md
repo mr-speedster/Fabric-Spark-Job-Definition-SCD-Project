@@ -69,8 +69,6 @@ Spark_Job_Definition_SCD_Project_001/
 │
 ├── main.py
 │
-├── __init__.py
-│
 ├── bronze.py
 │
 ├── config.py
@@ -103,7 +101,6 @@ Spark_Job_Definition_SCD_Project_001/
 | `merges.py` | Contains Delta Merge and SCD Type 2 logic |
 | `pipeline.py` | Orchestrates the overall data pipeline |
 | `watermark.py` | Handles watermark and incremental processing |
-| `__init__.py` | Marks the project as a Python package |
 
 ---
 
@@ -252,7 +249,6 @@ Upload all the remaining Python files except `main.py`.
 ### Reference Files
 
 ```text
-__init__.py
 bronze.py
 config.py
 data_vault.py
@@ -272,7 +268,6 @@ Spark Job Definition
 │   └── main.py
 │
 └── Reference Files
-    ├── __init__.py
     ├── bronze.py
     ├── config.py
     ├── data_vault.py
